@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 # theme
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
 # for remote themes (not default supported)
 # remote_theme: THEME-NAME
 
