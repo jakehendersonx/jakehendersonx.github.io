@@ -14,7 +14,7 @@ author:
   github_username: jakehendersonx
 
 # Theme and plugins
-theme: minimal # Change this if using a custom or other Jekyll theme
+pages-themes/minimal@v0.2.0 # Change this if using a custom or other Jekyll theme
 plugins:
   - jekyll-feed # Adds RSS feed support
   - jekyll-seo-tag # Adds SEO metadata
