@@ -1,0 +1,57 @@
+# Site settings
+title: title
+description: > 
+  writing about how to code software I find interesting
+baseurl: "" # Leave empty for the root directory
+url: "https://jakehendersonx.github.io" # Replace with your GitHub Pages URL
+lang: en
+
+# Author settings
+author:
+  name: Jake Henderson
+  email: jake.henderson.prof@gmail.com
+  twitter_username: jakehendersonx
+  github_username: jakehendersonx
+
+# Theme and plugins
+theme: minimal # Change this if using a custom or other Jekyll theme
+plugins:
+  - jekyll-feed # Adds RSS feed support
+  - jekyll-seo-tag # Adds SEO metadata
+  - jekyll-sitemap # Generates a sitemap.xml
+  - jekyll-paginate # Adds pagination support
+
+# Pagination settings
+paginate: 5 # Number of posts per page
+paginate_path: "/page:num"
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM # Enables GitHub Flavored Markdown
+  hard_wrap: false
+
+# Permalink settings
+permalink: /:categories/:title/ # Organize posts by category
+
+# Exclude files from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules/
+  - vendor/
+
+# Defaults for collections
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      author: Jake Henderson
+
+# Social media links (optional)
+social_links:
+  twitter: https://x.com/jakehendersonx
+  github: https://github.com/jakehendersonx
+  linkedin: https://www.linkedin.com/in/jake-h-19b577232/
