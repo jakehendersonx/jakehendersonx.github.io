@@ -11,6 +11,8 @@ on:
 
 # theme
 theme: jekyll-theme-minimal
+# for remote themes (not default supported)
+# remote_theme: THEME-NAME
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
