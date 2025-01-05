@@ -30,3 +30,14 @@ your release builder should run
 ```
 hugo
 ```
+
+## view code styles
+```
+hugo gen chromastyles --list
+```
+
+generate a new post
+```
+hugo new --kind post posts/postx.md
+
+```
