@@ -4,6 +4,8 @@ hugo paper template:
 
 ## using hugo
 followed this setup doc https://gohugo.io/getting-started/quick-start/
+find how to make alterations here https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs
+
 
 ## making changes
 inside `content/posts/` at the top of the page there is something like this
@@ -20,8 +22,11 @@ title = 'My First Post'
 hugo server --buildDrafts
 hugo server -D
 ```
-
-to release
+run withoug drafts on local
+```
+hugo server
+```
+your release builder should run
 ```
 hugo
 ```
