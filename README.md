@@ -1,28 +1,27 @@
+hugo:https://gohugo.io/getting-started/quick-start/
+hugo paper template: 
 
-## Installation
-install ruby
+
+## using hugo
+followed this setup doc https://gohugo.io/getting-started/quick-start/
+
+## making changes
+inside `content/posts/` at the top of the page there is something like this
 ```
-brew install ruby
++++
+date = '2025-01-05T12:26:04-05:00'
+draft = true
+title = 'My First Post'
++++
 ```
-now you have gem, get bundler
+👆 this heading makes whatever page you are working on a draft, you have to build with drafts to see your draft
+
 ```
-gem install bundler
+hugo server --buildDrafts
+hugo server -D
 ```
-or update if need be
+
+to release
 ```
-gem update bundler
+hugo
 ```
-install from `Gemfile`
-```
-bundle install
-```
-check version
-```
-bundle exec jekyll -v
-```
-run site locally
-```
-bundle exec jekyll serve
-```
-👆 while the above is running the site will auto update
-as you make changes. serves at `http://127.0.0.1:4000/`

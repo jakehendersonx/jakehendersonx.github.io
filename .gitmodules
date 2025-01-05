@@ -1,0 +1,9 @@
+[submodule "quickstart/themes/ananke"]
+	path = quickstart/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "quickstart/themes/PaperMod"]
+	path = quickstart/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "jakehendersonx/themes/PaperMod"]
+	path = jakehendersonx/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
