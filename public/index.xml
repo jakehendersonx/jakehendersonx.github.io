@@ -11,6 +11,14 @@
     </image>
     <generator>Hugo -- 0.140.2</generator>
     <language>en</language>
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neural Network Intuition: A Neural Network that Adds Two Numbers in PyTorch</title>
+      <link>http://localhost:1313/posts/add_numbers/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/posts/add_numbers/</guid>
+      <description>writing a nn that adds two numbers in pytorch and comparing with the first response of flagship AI models</description>
+    </item>
   </channel>
 </rss>

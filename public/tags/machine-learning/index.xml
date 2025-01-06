@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>First on None() to Some()</title>
-    <link>http://localhost:1313/tags/first/</link>
-    <description>Recent content in First on None() to Some()</description>
+    <title>Machine Learning on None() to Some()</title>
+    <link>http://localhost:1313/tags/machine-learning/</link>
+    <description>Recent content in Machine Learning on None() to Some()</description>
     <image>
       <title>None() to Some()</title>
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,13 +12,13 @@
     <generator>Hugo -- 0.140.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/first/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My 1st post</title>
+      <title>Neural Network Intuition: A Neural Network that Adds Two Numbers in PyTorh</title>
       <link>http://localhost:1313/posts/add_numbers/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>http://localhost:1313/posts/add_numbers/</guid>
-      <description>Desc Text.</description>
+      <description>Neural Network Intuition: A Neural Network that Adds Two Numbers</description>
     </item>
   </channel>
 </rss>
